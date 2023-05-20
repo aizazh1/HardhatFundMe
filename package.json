@@ -1,0 +1,25 @@
+{
+  "name": "hardhat-fund-me",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "npx hardhat test",
+    "test:staging": "npx hardhat test --network sepolia",
+    "deploy": "npx hardhat deploy",
+    "check": "npx hardhat check",
+    "format": "npx prettier --write .",
+    "coverage": "npx hardhat coverage"
+  },
+  "author": "Aizaz Hassan",
+  "license": "ISC",
+  "devDependencies": {
+    "@chainlink/contracts": "^0.6.1",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
+    "@nomiclabs/hardhat-solhint": "^3.0.1",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.14.0",
+    "hardhat-deploy": "^0.11.28"
+  }
+}
